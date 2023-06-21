@@ -107,13 +107,15 @@ h1{
 }
 .vissualy-hidden{
     position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    padding: 0;
-    overflow: hidden;
-    border: 0;
-    clip: rect(0 0 0 0);
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+ overflow: hidden;
 }
 .our-pluses{
     display: flex;
@@ -242,4 +244,7 @@ width: calc((100%-72px)/4);
 .menu{
     display: flex;
     gap: 40px;
+}
+.portfolio-section{
+    padding: 96px 0 120px 0;
 }
