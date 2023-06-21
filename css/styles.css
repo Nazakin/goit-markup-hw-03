@@ -225,7 +225,7 @@ width: calc((100%-72px)/4);
     display: flex;
 }
 .container{
-    width: 1158px;>
+    width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -264,7 +264,7 @@ width: calc((100%-72px)/4);
     
 }
 .portfolio-work{
-    width: calc((100%-48px)/3);
+    width: calc((100% - 48px) / 3);
 }
 
     
