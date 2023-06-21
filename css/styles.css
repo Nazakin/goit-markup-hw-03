@@ -246,6 +246,9 @@ width: calc((100%-72px)/4);
     display: flex;
     gap: 40px;
 }
+.menus{
+    padding: 24px 0;
+}
 .portfolio-section{
     padding: 96px 0 120px 0;
 }
