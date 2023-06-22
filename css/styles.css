@@ -12,6 +12,8 @@ body{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-right: 76px;
+    display: flex;
+    margin-bottom: 16px;
 }
 .contact{
     font-style: normal;
@@ -297,6 +299,6 @@ ul{
 address{
     margin-left: auto;
 }
-.a{
+.aaa{
     padding: 24px 0;
 }
