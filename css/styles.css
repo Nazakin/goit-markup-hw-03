@@ -223,6 +223,7 @@ width: calc((100%-72px)/4);
 }
 .header-content{
     display: flex;
+    gap: 40px;
 }
 .container{
     width: 1158px;
