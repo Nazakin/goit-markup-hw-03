@@ -233,6 +233,7 @@ width: calc((100%-72px)/4);
 .navigation{
     display: flex;
     align-items: center;
+    gap: 40px;
 }
 .link-to-smth{
     display: flex;
@@ -243,6 +244,7 @@ width: calc((100%-72px)/4);
     display: flex;
     gap: 40px;
 }
+.na
 .menu{
     display: flex;
     gap: 40px;
