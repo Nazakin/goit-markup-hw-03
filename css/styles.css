@@ -408,4 +408,28 @@ h1,h2,h3,p,ul{
   }
   .hover-text:hover .text{
     transform: translateY(0%);
+  }.aaa:hover::after{
+    border-radius: 2px;
+    background: var(--ocean, #404BBF);
+    content: "";
+    display:block;
+    width: 100%;
+    height: 4px;
+    
+  } 
+  .icon-pluses{
+    
+    display: inline;
+    gap: 24px;
+    border: 1px solid #F4F4FD;
+    border-radius: 4px;
+    background: var(--cloud, #F4F4FD);
+    width: 264px;
+    height: 112px;
+    
+    
+  }
+  .icon-list{
+    align-items: center;
+    justify-content: center;
   }
